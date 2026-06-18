@@ -1,11 +1,26 @@
 :root{
-    --primary :#4D4D4D
-     --greencolor:#4CAF4F
+    --primary :#4D4D4D;
+     --greencolor:#4CAF4F;
+}
+@font-face {
+    font-family:"inter" ;
+    src: url(./Inter_18pt-SemiBold.ttf);
 }
 
 
-.blackcolor{
-    color:var(--primary) !important;
+
+
+
+
+
+
+
+
+
+
+
+
+.blackcolor{      color:var(--primary) !important;
 }
 .textgreen{
     color: var(--greencolor);
@@ -13,3 +28,14 @@
 .bggreen{
     background-color: var(--greencolor);
 }
+.textgreen:hover{
+
+
+    color: var(--greencolor);
+}
+.font{
+    font-family: inter;
+.container color{
+    background-color: #F5F7FA;
+}
+
